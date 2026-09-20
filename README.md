@@ -1,7 +1,12 @@
 # AWS Certified Cloud Practitioner Notes
 
-Study notes and practice materials for the AWS Certified Cloud Practitioner certification.
+Study notes and practice materials for the AWS Certified Cloud Practitioner (CLF-C02) certification.
 
-## Repository status
+## Study notes
 
-This repository is ready for the source document to be converted into organized Markdown notes with supporting images.
+1. [Cloud Computing](notes/01-cloud-computing.md)
+
+## Repository structure
+
+- `notes/` - One Markdown file for each section of the source notes
+- `assets/images/` - Images referenced by the Markdown notes
