@@ -12,9 +12,6 @@ Together they support:
 - **Elasticity:** capacity can grow and shrink with demand.
 - **Fault tolerance:** failed instances can be removed from service and replaced.
 
-> [!NOTE]
-> The source heading says "ELG." The official AWS service abbreviation is **ELB**, for Elastic Load Balancing.
-
 ## Elastic Load Balancing
 
 A load balancer gives clients a single DNS name and routes requests to registered targets such as EC2 instances, IP addresses, or containers, depending on the load balancer type.
