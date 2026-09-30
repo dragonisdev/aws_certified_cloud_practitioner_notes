@@ -16,6 +16,8 @@ Study notes and practice materials for the AWS Certified Cloud Practitioner (CLF
 10. [Global Infrastructure and Edge Services](notes/10-global-infrastructure-and-edge.md)
 11. [Cloud Integrations](notes/11-cloud-integrations.md)
 12. [Cloud Monitoring and Auditing](notes/12-cloud-monitoring-and-auditing.md)
+13. [VPC and Networking](notes/13-vpc-and-networking.md)
+14. [Security and Compliance](notes/14-security-and-compliance.md)
 
 ## Repository structure
 
