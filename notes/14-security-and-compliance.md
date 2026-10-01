@@ -18,6 +18,10 @@ The boundary changes with the service:
 
 The exam often asks who performs a task. The more managed the service is, the more infrastructure AWS operates, but customers always retain responsibility for their data and appropriate access.
 
+## Geographic and industry compliance
+
+Compliance needs can depend on a customer's industry, jurisdiction, and where data is stored or processed. AWS publishes service and Region compliance information and audit reports through services such as AWS Artifact. Choosing a compliant Region or service does not automatically make a customer's workload compliant: customers still configure access, logging, encryption, and data handling to meet their own requirements.
+
 ## Defense in depth
 
 AWS security controls protect different layers. These services complement rather than replace security groups, network ACLs, IAM, logging, and encryption.
@@ -44,6 +48,8 @@ CloudFront and Route 53 can absorb attacks at the AWS edge. Auto Scaling can hel
 ### AWS Network Firewall
 
 AWS Network Firewall is a managed network firewall and intrusion detection and prevention service for VPC traffic. It supports stateless and stateful inspection rules and can inspect traffic between subnets, VPCs, the internet, VPNs, and Direct Connect when routing is configured through its endpoints.
+
+The official CLF-C02 guide explicitly lists Network Firewall as out of scope. This source-note comparison is background; prioritize AWS WAF, Shield, and Firewall Manager.
 
 ### AWS Firewall Manager
 

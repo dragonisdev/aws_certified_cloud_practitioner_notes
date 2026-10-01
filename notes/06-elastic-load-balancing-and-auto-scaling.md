@@ -77,6 +77,8 @@ NLB security behavior and detailed VPC architecture are covered later in the Net
 
 An Auto Scaling group (ASG) is a logical group of EC2 instances managed as one unit. It attempts to keep the requested number of healthy instances running.
 
+Auto scaling as an AWS capability is broader than EC2: supported services such as ECS and DynamoDB can also adjust capacity automatically. This chapter focuses on EC2 Auto Scaling groups because they appear with ELB in the source notes.
+
 ### Capacity settings
 
 | Setting | Meaning |

@@ -21,7 +21,7 @@ Bucket names must be unique across the relevant AWS partition, not merely within
 
 The console displays prefixes like folders, but S3 is a flat object store. For example, `photos/2026/image.jpg` is one key; `photos/2026/` is a prefix rather than a real directory.
 
-An object can be as large as 5 TB. Larger uploads use multipart upload rather than one single upload request.
+An object can be as large as 50 TB. Large objects use multipart upload; a single upload request cannot carry an object of that size. The 5 TB limit in older course material was increased in December 2025.
 
 ## Access control
 
@@ -174,6 +174,7 @@ As of November 7, 2025, Snowball Edge is no longer available to new customers, a
 ## References
 
 - [What is Amazon S3?](https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html)
+- [S3 maximum object size update](https://aws.amazon.com/about-aws/whats-new/2025/12/amazon-s3-maximum-object-size-50-tb/)
 - [S3 storage classes](https://docs.aws.amazon.com/AmazonS3/latest/userguide/storage-class-intro.html)
 - [S3 Block Public Access](https://docs.aws.amazon.com/AmazonS3/latest/userguide/configuring-block-public-access-bucket.html)
 - [S3 Replication requirements](https://docs.aws.amazon.com/AmazonS3/latest/userguide/replication-requirements.html)

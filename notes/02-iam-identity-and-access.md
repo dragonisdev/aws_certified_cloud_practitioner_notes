@@ -168,6 +168,8 @@ For example, an EC2 instance can use an IAM role to access S3. Applications on t
 
 AWS CloudShell is a browser-based shell available from the AWS Management Console.
 
+The official CLF-C02 guide explicitly lists CloudShell as out of scope. Keep this section as background; prioritize the CLI and SDK distinctions above.
+
 - It is pre-authenticated with the permissions of the console identity.
 - It includes the AWS CLI and common command-line tools.
 - Its home directory provides persistent storage per AWS Region; files outside the home directory are temporary.

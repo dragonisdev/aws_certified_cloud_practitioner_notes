@@ -104,6 +104,8 @@ Amazon FSx offers fully managed file systems built for particular operating syst
 
 ### FSx for Lustre
 
+The official CLF-C02 guide explicitly lists FSx for Lustre as out of scope. These source-note details are background; prioritize FSx for Windows File Server when studying managed file storage.
+
 - Provides a managed high-performance Lustre file system.
 - Fits machine learning, high performance computing, video processing, and financial modeling.
 - Can link with Amazon S3 so large datasets can be processed through a high-performance file interface.
@@ -136,7 +138,6 @@ The general shared responsibility model remains in [Cloud Computing](01-cloud-co
 4. **Should the only copy of important data be kept in an instance store?** No. Instance-store data is temporary and tied to the instance and host lifecycle.
 5. **Which service provides a shared NFS file system for Linux workloads?** Amazon EFS.
 6. **Which service is a managed Windows SMB file system?** FSx for Windows File Server.
-7. **Which service fits a high-performance shared file workload for HPC or machine learning?** FSx for Lustre.
 
 ## Avoiding duplication in later chapters
 

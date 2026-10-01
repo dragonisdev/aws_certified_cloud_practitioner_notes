@@ -136,7 +136,9 @@ Session Manager was introduced in the EC2 chapter; the broader operational suite
 
 Do not confuse the stages: CodeCommit stores source, CodeBuild builds and tests, CodeDeploy deploys, and CodePipeline connects release stages into a workflow.
 
-Infrastructure as code with CloudFormation is covered later with architecture and management services so it is not repeated here.
+For CLF-C02, prioritize CodeBuild and CodePipeline. The official guide explicitly places CodeDeploy and CodeArtifact out of scope; CodeCommit is not named on its in-scope list.
+
+Infrastructure as code with CloudFormation is covered in [Other Services, Backup, and Migration](18-other-services-backup-and-migration.md).
 
 ## Exam memory checks
 
@@ -155,7 +157,7 @@ Infrastructure as code with CloudFormation is covered later with architecture an
 - EC2 instances and instance families: [Amazon EC2](03-ec2.md)
 - ELB and Auto Scaling mechanics: [Elastic Load Balancing and EC2 Auto Scaling](06-elastic-load-balancing-and-auto-scaling.md)
 - Event-driven messaging and queues: [Cloud Integrations](11-cloud-integrations.md)
-- CloudFormation and infrastructure as code: Architecture and Management
+- CloudFormation and infrastructure as code: [Other Services, Backup, and Migration](18-other-services-backup-and-migration.md)
 - Lambda, Fargate, and EC2 pricing: Billing and Pricing
 - ECR image security, permissions, and vulnerability scanning: Security and Compliance
 

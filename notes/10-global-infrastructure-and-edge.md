@@ -96,6 +96,8 @@ AWS owns and manages the Outposts hardware, while the customer supplies the phys
 
 AWS Wavelength places selected AWS compute and storage services inside telecommunications providers' 5G networks for ultra-low-latency mobile and connected-device applications.
 
+The official CLF-C02 guide explicitly lists Wavelength as out of scope. This source-note section is background; prioritize Regions, AZs, edge locations, and Outposts.
+
 ![AWS Wavelength overview](../assets/images/global-infrastructure/wavelength-overview.png)
 
 Example use cases include interactive video, connected vehicles, augmented reality, and other latency-sensitive 5G applications.
@@ -136,7 +138,6 @@ Route 53 health checks and failover routing can support these patterns. Full dis
 6. **Which service provides global static anycast IP addresses and optimized TCP/UDP routing?** Global Accelerator.
 7. **Which service installs AWS-managed infrastructure at a customer site?** Outposts.
 8. **Which location brings AWS services closer to a metropolitan area?** A Local Zone.
-9. **Which location targets ultra-low-latency 5G applications?** A Wavelength Zone.
 
 ## Avoiding duplication in later chapters
 

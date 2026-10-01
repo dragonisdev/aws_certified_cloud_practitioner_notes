@@ -6,6 +6,16 @@
 
 Cloud computing is the on-demand delivery of IT resources over the internet with pay-as-you-go pricing. Instead of buying and maintaining physical servers and data centers, you provision resources such as compute, storage, and databases when needed.
 
+## Deployment models
+
+| Model | Where workloads run |
+| --- | --- |
+| Cloud | On cloud-provider infrastructure, such as an AWS Region |
+| On premises | In a customer's own data center or facility |
+| Hybrid | Across cloud and on-premises environments, with connectivity or integration between them |
+
+The AWS Management Console is useful for interactive operations; APIs, the AWS CLI, SDKs, and infrastructure as code support programmatic or repeatable work. [IAM Identity and Access](02-iam-identity-and-access.md) covers CLI and SDK access, while [Other Services, Backup, and Migration](18-other-services-backup-and-migration.md) introduces CloudFormation templates.
+
 ## Six advantages of cloud computing
 
 - **Trade fixed expense for variable expense:** Pay for resources as you use them.
@@ -55,6 +65,7 @@ The exact division depends on the AWS service. Service-specific examples are cov
 2. **What improves availability during an AZ failure?** Deploying across multiple Availability Zones.
 3. **Who secures AWS physical infrastructure?** AWS - security of the cloud.
 4. **Does changing the console Region move resources?** No. It only changes which regional resources are displayed.
+5. **What is a hybrid deployment?** A workload or environment spanning cloud and on-premises resources.
 
 ## References
 

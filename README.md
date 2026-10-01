@@ -18,6 +18,12 @@ Study notes and practice materials for the AWS Certified Cloud Practitioner (CLF
 12. [Cloud Monitoring and Auditing](notes/12-cloud-monitoring-and-auditing.md)
 13. [VPC and Networking](notes/13-vpc-and-networking.md)
 14. [Security and Compliance](notes/14-security-and-compliance.md)
+15. [Machine Learning and AI](notes/15-machine-learning.md)
+16. [Account Management, Billing, and Support](notes/16-account-management-billing-and-support.md)
+17. [Advanced Identity](notes/17-advanced-identity.md)
+18. [Other Services, Backup, and Migration](notes/18-other-services-backup-and-migration.md)
+
+These chapters cover the source PDF through **Other Services**. The remaining **AWS Architecting & Ecosystem** section will be a separate chapter. Service availability and support plans change, so use the current [CLF-C02 exam guide](https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02.html) when reviewing exam scope.
 
 ## Repository structure
 
