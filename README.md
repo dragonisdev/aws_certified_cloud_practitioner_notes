@@ -22,8 +22,9 @@ Study notes and practice materials for the AWS Certified Cloud Practitioner (CLF
 16. [Account Management, Billing, and Support](notes/16-account-management-billing-and-support.md)
 17. [Advanced Identity](notes/17-advanced-identity.md)
 18. [Other Services, Backup, and Migration](notes/18-other-services-backup-and-migration.md)
+19. [AWS Architecting and Ecosystem](notes/19-aws-architecting-and-ecosystem.md)
 
-These chapters cover the source PDF through **Other Services**. The remaining **AWS Architecting & Ecosystem** section will be a separate chapter. Service availability and support plans change, so use the current [CLF-C02 exam guide](https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02.html) when reviewing exam scope.
+These chapters cover the complete source PDF. For framework revision, start with the six Well-Architected pillars and six Cloud Adoption Framework perspectives in chapter 19. Service availability and support plans change, so use the current [CLF-C02 exam guide](https://docs.aws.amazon.com/aws-certification/latest/cloud-practitioner-02/cloud-practitioner-02.html) when reviewing exam scope.
 
 ## Repository structure
 

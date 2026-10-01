@@ -23,7 +23,7 @@ Many instances can be launched from the same AMI, which makes server configurati
 | Community | Public images published by AWS customers or other publishers |
 | Custom | Private or shared images created from your configured instances or image pipelines |
 
-Verify the publisher and contents before using a public or Marketplace image. Detailed Marketplace purchasing belongs in the AWS Ecosystem chapter.
+Verify the publisher and contents before using a public or Marketplace image. Detailed Marketplace purchasing belongs in [AWS Architecting and Ecosystem](19-aws-architecting-and-ecosystem.md).
 
 ## Creating a custom AMI
 
@@ -90,7 +90,7 @@ Automation reduces manual image-building work and makes images easier to reprodu
 ## Avoiding duplication in later chapters
 
 - EBS mechanics and snapshots: [EBS and EC2 Storage](04-ebs-and-ec2-storage.md)
-- Marketplace subscriptions and third-party offerings: AWS Ecosystem
+- Marketplace subscriptions and third-party offerings: [AWS Architecting and Ecosystem](19-aws-architecting-and-ecosystem.md)
 - KMS keys and detailed encryption controls: Security and Encryption
 - Launch templates and automatic scaling: the next chapter
 

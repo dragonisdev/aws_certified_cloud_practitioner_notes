@@ -135,7 +135,7 @@ The PDF mentions older **Developer**, **Business (classic)**, and **Enterprise O
 
 For older exam wording, **Developer** meant technical support for development and testing during business hours; **Business (classic)** meant 24/7 technical support for production workloads; **Enterprise On-Ramp** added more proactive, enterprise-style help. AWS is retiring all three in January 2027 outside GovCloud. The current plans above are the better default for real-world choices.
 
-Use the **AWS Support Center** to open and manage cases according to the plan. Documentation, whitepapers, AWS Prescriptive Guidance, AWS re:Post, and the AWS Knowledge Center provide self-service answers; the broader partner and Marketplace ecosystem is covered in the later Architecting & Ecosystem section.
+Use the **AWS Support Center** to open and manage cases according to the plan. Documentation, whitepapers, AWS Prescriptive Guidance, AWS re:Post, and the AWS Knowledge Center provide self-service answers; [AWS Architecting and Ecosystem](19-aws-architecting-and-ecosystem.md) covers the broader partner and Marketplace resources.
 
 ## Exam memory checks
 
